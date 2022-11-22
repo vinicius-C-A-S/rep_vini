@@ -1,5 +1,8 @@
 #Achando os filmes por gênero de Ação
 Select*
+from filme_categoria;
+
+select*
 from a.nome. b.titulo,b.descricao,b.preco_de_alocacao
 from categoria a ,filme b, filme c, categoria c
 where a.categoria_id = c.categoria_id
